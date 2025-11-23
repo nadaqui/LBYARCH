@@ -64,3 +64,5 @@ As Y increases, the average execution time increases. Due to the limitations of 
 ### Program Output + Correctness Check
 Let's try to verify the results with values from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
 
+![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/output10.png)
+
