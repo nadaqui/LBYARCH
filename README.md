@@ -48,3 +48,14 @@ Example:
 3
 
 5
+
+### Average Execution Times
+
+| Y | Average Time |
+|---|---|---|
+| 10 | 0.538 |
+| 100 | 0.622 |
+| 1,000 | 1.489 |
+| 10,000 | 1.589 |
+
+As Y increases, the average execution time increases. Due to the limitations of my device, I am unable to test Y having greater values than 10,000. However, with this pattern we have observed we can assume that average execution time will increase past this point. 
