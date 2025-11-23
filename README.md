@@ -20,19 +20,31 @@ The output acceleration for each will be converted into Integers.
 Each row will indicate Initial Velocity (in KM/H), Final Velocity (in KM/H), and Time (in Seconds).
 
 Sample Matrix:
+
 0.0, 62.5, 10.1
+
 60.0, 122.3, 5.5
+
 30.0, 160.7, 7.8
 
 **Input:** Matrix Rows, single float matrix values
+
 Example:
+
 3
+
 0.0, 62.5, 10.1
+
 60.0, 122.3, 5.5
+
 30.0, 160.7, 7.8
 
 **Output:** Integer acceleration values (m/s2)
+
 Example:
+
 2
+
 3
+
 5
