@@ -13,6 +13,7 @@ To change which test case to use, replace "input.txt" with any of the files in t
 -  input10.txt: test case where y = 10
 -  input100.txt: test case where y = 100
 -  input1000.txt: test case where y = 1000
+-  input10000.txt: test case where y = 10000
 
 ### Assigned specifications:
 Implement a program that computes for the acceleration of multiple cars stored in a Y by 3 matrix. Where Y is the number of cars. All inputs are in single floating point.
@@ -59,3 +60,7 @@ Example:
 | 10,000 | 1.589 |
 
 As Y increases, the average execution time increases. Due to the limitations of my device, I am unable to test Y having greater values than 10,000. However, with this pattern we have observed we can assume that average execution time will increase past this point. 
+
+### Program Output + Correctness Check
+Let's try to verify the results with values from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
+
