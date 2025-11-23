@@ -62,7 +62,7 @@ Example:
 As Y increases, the average execution time increases. Due to the limitations of my device, I am unable to test Y having greater values than 10,000. However, with this pattern we have observed we can assume that average execution time will increase past this point. 
 
 ### Program Output + Correctness Check
-Let's try to verify the results with values from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
+Let's try to verify the results with input from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
 
 ![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/output10.png)
 
@@ -75,8 +75,13 @@ Vf = 155.6 km/hr
 t = 8.0 s
 
 Acceleration = (155.6 km/hr - 4.0 km/hr) / 8.0s
+
              = (151.6 km/hr) / 8.0s
+             
              = ((151.6 km/hr * 1000 m/hr) * 1m/3600s ) / 8.0s
+             
              = 42.11 m/s / 8.0 s
+             
              = 5.26 m/s^2
+
 Convert to integer: **5** m/s^2
