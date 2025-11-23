@@ -66,3 +66,17 @@ Let's try to verify the results with values from [input10.txt](https://github.co
 
 ![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/output10.png)
 
+First Car:
+
+Vi = 4.0 km/hr
+
+Vf = 155.6 km/hr
+
+t = 8.0 s
+
+Acceleration = (155.6 km/hr - 4.0 km/hr) / 8.0s
+             = (151.6 km/hr) / 8.0s
+             = ((151.6 km/hr * 1000 m/hr) * 1m/3600s ) / 8.0s
+             = 42.11 m/s / 8.0 s
+             = 5.26 m/s^2
+Convert to integer: **5** m/s^2
