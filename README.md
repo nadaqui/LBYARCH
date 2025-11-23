@@ -74,14 +74,14 @@ Vf = 155.6 km/hr
 
 t = 8.0 s
 
-Acceleration = (155.6 km/hr - 4.0 km/hr) / 8.0s
+Acceleration = (155.6 km/h - 4.0 km/h) / 8.0 s  
 
-             = (151.6 km/hr) / 8.0s
-             
-             = ((151.6 km/hr * 1000 m/hr) * 1m/3600s ) / 8.0s
-             
-             = 42.11 m/s / 8.0 s
-             
-             = 5.26 m/s^2
+= (151.6 km/h) / 8.0 s  
 
-Convert to integer: **5** m/s^2
+= (151.6 × 1000 ÷ 3600 m/s) / 8.0 s  
+
+= 42.11 m/s / 8.0 s  
+
+= 5.26 m/s²
+
+Convert to integer: **5** m/s²
