@@ -64,9 +64,13 @@ As Y increases, the average execution time increases. Due to the limitations of 
 ### Program Output + Correctness Check
 Let's try to verify the results with input from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
 
+Screenshot of program output:
+
 ![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/output10.png)
 
-1. First Car:
+Correctness check:
+
+**1. First Car:**
 
 Vi = 4.0 km/hr
 
@@ -86,7 +90,7 @@ Acceleration = (155.6 km/h - 4.0 km/h) / 8.0 s
 
 Convert to integer (Round to nearest, ties to even): **5** m/s²
 
-2. Second Car:
+**2. Second Car:**
 
 Vi = 27.0 km/hr
 
@@ -106,7 +110,7 @@ Acceleration = (89.0 km/h - 27.0 km/h) / 6.7 s
 
 Convert to integer (Round to nearest, ties to even): **3** m/s²
 
-3. Third Car:
+**3. Third Car:**
 
 Vi = 1.2 km/hr
 
