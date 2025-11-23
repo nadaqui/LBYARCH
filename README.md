@@ -52,7 +52,7 @@ Example:
 ### Average Execution Times
 
 | Y | Average Time |
-|---|---|---|
+|---|---|
 | 10 | 0.538 |
 | 100 | 0.622 |
 | 1,000 | 1.489 |
