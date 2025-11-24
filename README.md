@@ -8,6 +8,10 @@ Input the following into a run.bat file:
 -  gcc acc.obj asmacc.obj -o acc.exe -m64
 -  acc.exe < input.txt
 
+Running the C file (which does not call any assembly):
+-  gcc accNoASM.c -o accNoASM.exe
+-  accNoASM.exe < input.txt
+
 To change which test case to use, replace "input.txt" with any of the files in the "test_cases" folder.
 -  input.txt: test case from the specifications
 -  input10.txt: test case where y = 10
