@@ -58,7 +58,7 @@ Example:
 | 100 | 0.164 | 0.155 |
 | 1,000 | 1.00 | 1.01 |
 
-As Y increases, the average execution time increases. Due to the limitations of my device, I am unable to test Y having greater values than 10,000. However, with this pattern we have observed we can assume that average execution time will increase past this point. 
+On average, the times between the assembly code and C language code are very similar. 
 
 ### Program Output + Correctness Check
 Let's try to verify the results with input from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
