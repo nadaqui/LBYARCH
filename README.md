@@ -52,12 +52,11 @@ Example:
 
 ### Average Execution Times
 
-| Y | Average Time (s) |
-|---|---|
-| 10 | 0.538 |
-| 100 | 0.622 |
-| 1,000 | 1.489 |
-| 10,000 | 1.589 |
+| Y | Average Time (asm) | Average Time (C) |
+|---|---|---|
+| 10 | 0.071 | 0.071 |
+| 100 | 0.164 | 0.155 |
+| 1,000 | 1.00 | 1.01 |
 
 As Y increases, the average execution time increases. Due to the limitations of my device, I am unable to test Y having greater values than 10,000. However, with this pattern we have observed we can assume that average execution time will increase past this point. 
 
@@ -89,45 +88,3 @@ Acceleration = (155.6 km/h - 4.0 km/h) / 8.0 s
 = 5.26 m/s²
 
 Convert to integer (Round to nearest, ties to even): **5** m/s²
-
-**2. Second Car:**
-
-Vi = 27.0 km/hr
-
-Vf = 89.0 km/hr
-
-t = 6.7 s
-
-Acceleration = (89.0 km/h - 27.0 km/h) / 6.7 s  
-
-= (62.0 km/h) / 6.7 s  
-
-= (62.0 km/h × 1000 m/h ÷ 3600 m/s) / 6.7 s  
-
-= 17.22 m/s / 6.7 s  
-
-= 2.57 m/s²
-
-Convert to integer (Round to nearest, ties to even): **3** m/s²
-
-**3. Third Car:**
-
-Vi = 1.2 km/hr
-
-Vf = 68.0 km/hr
-
-t = 11.0 s
-
-Acceleration = (68.0 km/h - 1.2 km/h) / 11.0 s  
-
-= (66.8 km/h) / 11.0 s  
-
-= (66.8 km/h × 1000 m/h ÷ 3600 m/s) / 11.0 s  
-
-= 18.56 m/s / 11.0 s  
-
-= 1.69 m/s²
-
-Convert to integer (Round to nearest, ties to even): **2** m/s²
-
-Based on the first three cars, we can assume that the logic and results are correct and accurate for the rest of the cars.
