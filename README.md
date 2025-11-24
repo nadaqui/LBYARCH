@@ -1,6 +1,6 @@
 # LBYARCH
 ## x86-to-C interface programming project
-### Youtube Link for Video: 
+### Link for Video: [link] ()
 
 ### To setup:
 Input the following into a run.bat file:
