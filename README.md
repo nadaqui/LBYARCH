@@ -65,7 +65,8 @@ Let's try to verify the results with input from [input10.txt](https://github.com
 
 Screenshot of program output:
 
-![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/output10.png)
+![output screenshot](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/check.png) 
+The left is the output from C code, the right is the output from asm code.
 
 Correctness check:
 
