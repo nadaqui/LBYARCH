@@ -1,5 +1,6 @@
 # LBYARCH
 ## x86-to-C interface programming project
+### Youtube Link for Video: 
 
 ### To setup:
 Input the following into a run.bat file:
@@ -17,7 +18,6 @@ To change which test case to use, replace "input.txt" with any of the files in t
 -  input10.txt: test case where y = 10
 -  input100.txt: test case where y = 100
 -  input1000.txt: test case where y = 1000
--  input10000.txt: test case where y = 10000
 
 ### Assigned specifications:
 Implement a program that computes for the acceleration of multiple cars stored in a Y by 3 matrix. Where Y is the number of cars. All inputs are in single floating point.
