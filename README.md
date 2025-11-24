@@ -62,7 +62,7 @@ Example:
 | 100 | 0.164 | 0.155 |
 | 1,000 | 1.00 | 1.01 |
 
-On average, the times between the assembly code and C language code are very similar. 
+On average, I have found that the execution times between the assembly code and C language code are very similar. Through research, I have found that assembly generally has a longer execution time, in addition to the fact that modern C compilers are very optimized. But most likely due to the simplicity of the assembly code, there are no visible differences in execution time.
 
 ### Program Output + Correctness Check
 Let's try to verify the results with input from [input10.txt](https://github.com/nadaqui/LBYARCH/blob/main/test_cases/input10.txt).
